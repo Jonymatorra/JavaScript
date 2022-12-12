@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Zen+Dots&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #161717;
+}
+
+.contenedor{
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 450px; 
+}
+
+.seccion-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+label{
+    width: 100%;
+}
+
+label input{
+    width: 100%;
+    background-color:#212121;
+    border: none;
+    padding: 8px 8px ;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+    
+  
+    
+}
+
+label input:hover{
+    background-color: #454045;
+    border: solid 1px rosybrown;
+    box-shadow: 0 0 4px #ab2322;
+
+}
+
+label input:focus{
+    background-color: white;
+    border: solid 1px rosybrown;
+    box-shadow: 0 0 4px #ab2322;
+
+}
+
+
+
+label span{
+    font-weight: 700;
+
+}
+
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.checkbox-label input[type="checkbox"]{
+    width: 20px;
+}
+
+.submit-btn{
+    background-color: #EA4C89 ;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    opacity: 75%;
+
+}
+
+
